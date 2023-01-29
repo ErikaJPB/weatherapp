@@ -31,6 +31,7 @@ git clone https://github.com/[your_username]/weather-app.git
 npm install (or yarn)
 
 3. Create a `.env` file in the root of the project and add your Open Weather Map API key:
+
 NEXT_PUBLIC_WEATHER_KEY=[your_api_key]
 
 4. Start the development server:
