@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js and npm (or yarn)
-- A [Open Weather API key](https://openweathermap.org/api)
+- A [Open Weather Map API key](https://openweathermap.org/api)
 
 
 
@@ -30,8 +30,8 @@ git clone https://github.com/[your_username]/weather-app.git
 2. Install the dependencies:
 npm install (or yarn)
 
-3. Create a `.env` file in the root of the project and add your Dark Sky API key:
-OPEN_WEATHER_API_KEY=[your_api_key]
+3. Create a `.env` file in the root of the project and add your Open Weather Map API key:
+NEXT_PUBLIC_WEATHER_KEY=[your_api_key]
 
 4. Start the development server:
 npm run dev (or yarn dev)
@@ -44,7 +44,7 @@ npm run dev (or yarn dev)
 - [Next.js](https://nextjs.org/) - A framework for building server-rendered React applications
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript
-- [Open Weather API](https://openweathermap.org/api) - A weather API
+- [Open Weather Map API](https://openweathermap.org/api) - A weather API
 
 
 ### Author
@@ -58,7 +58,7 @@ npm run dev (or yarn dev)
 - [Next.js documentation](https://nextjs.org/docs)
 - [Tailwind CSS documentation](https://tailwindcss.com/docs)
 - [TypeScript documentation](https://www.typescriptlang.org/docs)
-- [Open Weather API documentation](https://openweathermap.org/api/one-call-3)
+- [Open Weather Map API documentation](https://openweathermap.org/api/one-call-3)
 
 
 
