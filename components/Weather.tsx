@@ -19,7 +19,7 @@ function Weather({ data }: Props) {
         data.weather &&
         data.wind &&
         data.weather.length > 0 && (
-          <div className="relative flex-col justify-between max-w-[500px] w-full h-[90vh] m-auto p-4 text-gray-200 z-10">
+          <div className="relative flex-col justify-between max-w-[400px] w-full h-[90vh] m-auto p-4 text-gray-200 z-10">
             <div className="relative flex justify-between pt-12">
               <div className="flex flex-col align-items-center">
                 <Image
@@ -32,7 +32,7 @@ function Weather({ data }: Props) {
               </div>
               <p className="text-9xl">{data.main.temp.toFixed(0)}°C</p>
             </div>
-            <div className="bg-black/50 relative p-8 mt-10 rounded-md">
+            <div className="bg-black/40 relative p-8 mt-10 rounded-md">
               <p className="text-2xl text-center pb-6">
                 Weather in {data.name}
               </p>

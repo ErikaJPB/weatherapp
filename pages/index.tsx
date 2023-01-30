@@ -59,9 +59,9 @@ export default function Home() {
           className="object-cover"
         />
 
-        <div className="relative flex justify-between align-items-center max-w-[500px] w-full m-auto pt-10  text-white z-10">
+        <div className="relative flex justify-between align-items-center max-w-[400px] w-full m-auto pt-10  text-white z-10">
           <form
-            className="flex justify-between align-items-center w-full m-auto p-5 bg-transparent border border-gray-400 text-white rounded-3xl"
+            className="flex justify-between align-items-center w-full m-2 p-5 bg-transparent border border-gray-200 text-white rounded-3xl"
             onSubmit={weatherData}
           >
             <div>
